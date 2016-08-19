@@ -2,7 +2,7 @@ package com.sergeymild.gradle.fastHttp
 /**
  * Created by joaoprudencio on 05/05/15.
  */
-class SlackPluginExtension {
+class FastHttpPluginExtension {
     String url
     List<Object> dependsOnTasks
     String title
