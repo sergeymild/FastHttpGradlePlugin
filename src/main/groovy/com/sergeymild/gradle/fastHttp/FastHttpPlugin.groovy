@@ -16,7 +16,7 @@ class FastHttpPlugin implements Plugin<Project> {
         mExtension = project.extensions.create('fastHttp', FastHttpPluginExtension)
 
         project.dependencies {
-            compile fileTree(dir: 'libs', include: ['fasthttplibrary.jar'])
+            runtime files('libs/fasthttplibrary.jar')
         }
     }
 }
